@@ -12,7 +12,7 @@ $(TARGET): $(OBJS)
 	gcc $(CFLAGS) $(OBJS) $(LIB) -o $(TARGET)
 
 $(OBJS): $(SRCS)
-	nasm ($ASMFLAGS) -o $(OBJS) $(SRCS)
+	nasm $(ASMFLAGS) -o $(OBJS) $(SRCS)
 
 .PHONY: clean
 clean:

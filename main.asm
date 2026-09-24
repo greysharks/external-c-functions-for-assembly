@@ -9,10 +9,11 @@ section .text
 
 global main
 main:
-	PUSH var_b
-	PUSH var_a
+	PUSH [var_b]
+	PUSH [var_a]
 	CALL lossless_multiplication
 
+after_call:
 	MOV ebx, eax
 	MOV eax, [ebx]
 	MOV edx, [ebx + 0x4]
