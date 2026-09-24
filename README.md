@@ -10,4 +10,4 @@ AB<sub>2N</sub> = AB<sub>0</sub> + AB<sub>1</sub>
 
 Where:
 0 < AB<sub>0</sub> < N,
-N < AB<sub>1</sub> < 2xN
+N < AB<sub>1</sub> < 2N
