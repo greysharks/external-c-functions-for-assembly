@@ -9,5 +9,5 @@ And:
 AxB<sub>2xN</sub> = AxB<sub>0</sub> + AxB<sub>1</sub>
 
 Where:
-0 < AxB<sub>0</sub> < N
+0 < AxB<sub>0</sub> < N,
 N < AxB<sub>1</sub> < 2xN
